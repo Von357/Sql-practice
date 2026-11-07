@@ -17,5 +17,5 @@ VALUES
 
 SELECT transaction_id, customer_ref, amount
 FROM dbo.transactions_demo
-WHERE amount >= 5000
+WHERE amount >= 1000
 ORDER BY amount DESC;
